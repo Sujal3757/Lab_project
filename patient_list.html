@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Lab MIS - Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <!--logo start-->
+            <a href="index.html" class="logo"><b>Lab MIS</b></a>
+            <!--logo end-->
+            <div class="nav notify-row" id="top_menu">
+                <!--  notification start -->
+              
+                <!--  notification end -->
+            </div>
+            <div class="top-menu">
+            	<ul class="nav pull-right top-menu notify-row">
+                    <!-- inbox dropdown start-->
+                    <li id="header_inbox_bar" class="dropdown" >
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#" style="margin-right :100px ;">
+                            Nirmala Shrestha
+                        </a>
+                        
+                        <ul class="dropdown-menu extended inbox pull-right" style="margin-top:-5px;">
+                            <div class="notify-arrow notify-arrow-green"></div>
+                            <li>
+                                <p class="green">Settings</p>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    
+                                    <span class="subject">
+                                    <span class="from">Profile</span>
+                                                                       </span>
+                                   
+                                </a>
+                            </li>
+                           
+                            <li>
+                                <a href="index.html#">
+                                  
+                                    <span class="subject">
+                                    <span class="from"> Change Password</span>
+                                                                       </span>
+                                   
+                                </a>
+                            </li>
+                             <li><a class="logout" href="login.html">Logout</a></li>
+                        </ul>
+
+                    </li>
+                    <!-- inbox dropdown end -->
+                
+            	</ul>
+            </div>
+        </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+              
+              	  <p class="centered"><a href="profile.html"><img src="assets/img/ui-divya.jpg" class="img-circle" width="60"></a></p>
+              	  <h5 class="centered">Nirmala Shrestha</h5>
+              	  	
+                  <li class="mt">
+                      <a href="index.html">
+                          <i class="fa fa-dashboard"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+
+
+                  <li class="sub-menu">
+                      <a class="active" href="javascript:;" >
+                          <i class="fa fa-book"></i>
+                          <span>Patient</span>
+                      </a>
+                      <ul class="sub">
+                       <li class="active"><a  href="patient_list.html">List Patients</a></li>
+                          <li><a  href="patient_add.html">Add Patients</a></li>
+                          <li><a  href="login.html">Edit Patients</a></li>
+                         
+                      </ul>
+                  </li>
+            
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+     <section id="main-content">
+          <section class="wrapper">
+              <h3><i class="fa fa-angle-right"></i>Patient/Patient Lists
+              <div class="pull-right"><i class="fa fa-arrow-left"></i><a href="">Back</a></div></h3>
+          <div class="row mt">
+            <div class="col-lg-12">
+                      <div class="content-panel">
+                      <h4><i class="fa fa-bars tooltips"></i> Patient Lists</h4>
+                      <form class="form-inline" role="form">
+                          <div class="form-group pull-right">
+                              <label class="sr-only" for="exampleInputEmail2">Search</label>
+                              <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Search"> <br><br>
+                          </div>
+                         
+                   
+                      </form>
+                          <section id="unseen">
+                            <table class="table table-bordered table-striped table-condensed">
+                              <thead>
+                              <tr>
+                                  <th>Code</th>
+                                  <th>Name</th>
+                                  <th class="numeric">Address</th>
+                                  <th class="numeric">Email Address</th>
+                                  <th class="numeric">Age</th>
+                                  <th class="numeric">Gender</th>
+                                  <th class="numeric">Phone</th>
+                                  <th class="numeric">Mobile</th>
+                                  <th class="numeric">Department</th>
+                                  <th class="numeric">Action</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                  <td>AAC</td>
+                                  <td>Full name</td>
+                                  <td class="numeric">Address</td>
+                                  <td class="numeric">Email</td>
+                                  <td class="numeric">Age</td>
+                                  <td class="numeric">Gender</td>
+                                  <td class="numeric">Phone</td>
+                                  <td class="numeric">Mobile</td>
+                                  <td class="numeric">Department</td>
+                                  <td class="numeric">
+                                    <div class="pull-right hidden-phone">
+                                                  <button class="btn btn-success btn-xs">
+                                                    <i class=" fa fa-eye"></i>
+                                                  </button>
+                                                  <a href="patient_edit.html">
+                                                    <button class="btn btn-primary btn-xs"><i class="fa fa-pencil" ></i></button>
+                                                  </a>
+                                                  <button class="btn btn-danger btn-xs" data-toggle="modal" data-target="#myModal"><i class="fa fa-trash-o "></i></button>
+
+                                                <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Patient Details</h4>
+                  </div>
+                  <div class="modal-body">
+                   Are You sure You want to delete this entry?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Yes</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                  </div>
+                </div>
+              </div>
+            </div>              
+              </div>
+
+
+                                              </div>
+                                  </td>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </section>
+                  </div><!-- /content-panel -->
+               </div><!-- /col-lg-4 -->     
+        </div><!-- /row -->
+         
+            
+          
+            
+         
+            
+            
+    </section><! --/wrapper -->
+      </section><!-- /MAIN CONTENT -->
+
+      <!--main content end-->
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              2014 - Alvarez.is
+              <a href="blank.html#" class="go-top">
+                  <i class="fa fa-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+
+
+    <!--common script for all pages-->
+    <script src="assets/js/common-scripts.js"></script>
+
+    <!--script for this page-->
+    
+  <script>
+      //custom select box
+
+      $(function(){
+          $('select.styled').customSelect();
+      });
+
+  </script>
+
+  </body>
+</html>
